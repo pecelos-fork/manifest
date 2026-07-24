@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="build/soong" name="android_build_soong" groups="pdk,tradefed,sysui-studio" remote="iwak">
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="iwak" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc,sysui-studio" remote="iwak" />
+  <project path="vendor/custom" name="android_vendor_custom" remote="iwak" />
+  <project path="system/core" name="system/core" remote="iwak" />
+  <project path="packages/apps/LMOFreeForm" name="packages_apps_LMOFreeForm" remote="iwak" />
+  <project path="packages/apps/GameSoace" name="packages_apps_GameSpace" remote="iwak" />
+</manifest>
